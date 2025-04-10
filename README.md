@@ -4,17 +4,24 @@ AgentFrameworkKit is an agent orchestration framework built on top of Agent Deve
 
 ## Steps
 
+* Initialize python virtual environment 
 ```
 uv venv venv --python 3.11
 ```
 
 
-```
-uv pip install google-adk
-```
+* Activate python virtual environment as follows - 
 
 ```
 source venv/bin/activate
+```
 
+* Install 
+
+```
 uv pip install google-adk
 ```
+
+
+* Create the folder structure in in `agent_framework_kit_agent` folder
+
