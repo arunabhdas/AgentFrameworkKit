@@ -1,2 +1,2 @@
 # AgentFrameworkKit
-AgentFrameworkKit is a framework built on top of Agent Development Kit
+AgentFrameworkKit is an agent orchestration framework built on top of Agent Development Kit
