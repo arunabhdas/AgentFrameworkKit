@@ -135,3 +135,33 @@ source "$HOME/.cargo/env.fish"  # For fish
 source "$HOME/.cargo/env.nu"    # For nushell
 ```
 
+* Run
+
+```
+╰─❯ npm create tauri-app@latest
+
+> npx
+> create-tauri-app
+
+✔ Project name · agentframework
+✔ Identifier · app.agentframework
+✔ Choose which language to use for your frontend · TypeScript / JavaScript - (pnpm, yarn, npm, deno, bun)
+✔ Choose your package manager · npm
+✔ Choose your UI template · Vanilla
+✔ Choose your UI flavor · JavaScript
+
+Template created! To get started run:
+  cd agentframework
+  npm install
+  npm run tauri android init
+  npm run tauri ios init
+
+For Desktop development, run:
+  npm run tauri dev
+
+For Android development, run:
+  npm run tauri android dev
+
+For iOS development, run:
+  npm run tauri ios dev
+```
