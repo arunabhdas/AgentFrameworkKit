@@ -19,9 +19,16 @@ source venv/bin/activate
 * Install 
 
 ```
+uv pip install python-dotenv
 uv pip install openai
 ```
 
+
+* Run as follows - 
+
+```
+python functioncalling.py
+```
 
 * Create the folder structure in in `agent_framework_kit_agent` folder
 
