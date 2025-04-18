@@ -1,6 +1,11 @@
 // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
+
+use tauri::{AppHandle};
+use tauri::Emitter;
+
 #[tauri::command]
-fn greet(name: &str) -> String {
+fn greet(app:AppHandle, name: &str) -> String {
+    app.emit("event_name", "eventpayload").unwrap();
     format!("Hello, {}! You've been greeted from Rust!", name)
 }
 

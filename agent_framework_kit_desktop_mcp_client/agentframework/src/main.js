@@ -1,4 +1,9 @@
 const { invoke } = window.__TAURI__.core;
+const { listen } = window.__TAURI__.event;
+
+listen("event_name", (eventPayload) => {
+  console.log(eventPayload);
+})
 
 let greetInputEl;
 let greetMsgEl;
