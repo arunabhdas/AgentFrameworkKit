@@ -166,7 +166,7 @@ For iOS development, run:
   npm run tauri ios dev
 ```
 
-## Steps for agent_framework_kit_tauri
+### Steps scaffold for agent_framework_kit_tauri
 
 ```
 ╰─❯ npm create tauri-app@latest               
@@ -204,6 +204,22 @@ npm notice
 
 ```
 
+### Steps for develop for agent_framework_kit_tauri
+```
+cd agent_framework_kit_tauri
+
+npm install
+
+npm run tauri dev
+
+```
+
+### Steps for develop for agent_framework_kit_tauri iOS
+```
+npm run tauri ios init
+
+npm run tauri ios dev
+```
 
 ## Links for agent_framework_kit_tauri
 https://youtu.be/YmDKih6oJK4?si=FE__y9L2xzeZaItx
