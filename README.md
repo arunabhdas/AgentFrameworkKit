@@ -165,3 +165,45 @@ For Android development, run:
 For iOS development, run:
   npm run tauri ios dev
 ```
+
+## Steps for agent_framework_kit_tauri
+
+```
+╰─❯ npm create tauri-app@latest               
+
+> npx
+> create-tauri-app
+
+✔ Project name · agentframework
+✔ Identifier · app.agentframework
+✔ Choose which language to use for your frontend · TypeScript / JavaScript - (pnpm, yarn, npm, deno, bun)
+✔ Choose your package manager · npm
+✔ Choose your UI template · Vue - (https://vuejs.org/)
+✔ Choose your UI flavor · TypeScript
+
+Template created! To get started run:
+  cd agentframework
+  npm install
+  npm run tauri android init
+  npm run tauri ios init
+
+For Desktop development, run:
+  npm run tauri dev
+
+For Android development, run:
+  npm run tauri android dev
+
+For iOS development, run:
+  npm run tauri ios dev
+
+npm notice
+npm notice New minor version of npm available! 11.2.0 -> 11.3.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.3.0
+npm notice To update run: npm install -g npm@11.3.0
+npm notice
+
+```
+
+
+## Links for agent_framework_kit_tauri
+https://youtu.be/YmDKih6oJK4?si=FE__y9L2xzeZaItx
