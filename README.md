@@ -221,5 +221,16 @@ npm run tauri ios init
 npm run tauri ios dev
 ```
 
+
+### Steps for agent_framework_kit_slint
+
+```
+cd agent_framework_kit_slint
+
+cd agent_framework_kit_slint
+
+cargo run
+```
+
 ## Links for agent_framework_kit_tauri
 https://youtu.be/YmDKih6oJK4?si=FE__y9L2xzeZaItx
