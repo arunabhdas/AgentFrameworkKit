@@ -1,8 +1,8 @@
 import { Button, VerticalBox } from "std-widgets.slint";
 
 export component AppWindow inherits Window {
-    width: 200px;
-    height: 200px;
+    width: 1024px;
+    height: 1024px;
     GridLayout {
         spacing: 5px;
         Row {
@@ -10,19 +10,11 @@ export component AppWindow inherits Window {
                 text: "Agent Framework";
                 color: red;
             }
-
-            Rectangle {
-                background: blue;
-            }
         }
 
         Row {
-            Rectangle {
-                background: yellow;
-            }
-
-            Rectangle {
-                background: green;
+            TextInput {
+                text: "Enter value";
             }
         }
     }
