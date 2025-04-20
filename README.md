@@ -229,6 +229,8 @@ cd agent_framework_kit_slint
 
 cd agent_framework_kit_slint
 
+cargo build
+
 cargo run
 ```
 
